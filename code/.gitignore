@@ -1,0 +1,17 @@
+# Local/private model material: do not upload checkpoints or private source.
+FM_embedding_extraction/**/local_model_code/
+FM_embedding_extraction/**/*.pt
+FM_embedding_extraction/**/*.pth
+FM_embedding_extraction/**/*.ckpt
+FM_embedding_extraction/**/weights/
+
+# Runtime/cache files
+__pycache__/
+*.py[cod]
+._*
+.DS_Store
+.Rhistory
+
+# Local machine outputs
+*.log
+*.tmp

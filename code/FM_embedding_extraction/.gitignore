@@ -1,0 +1,16 @@
+# Local model snapshots, data, weights, caches, and generated embeddings are private.
+local_model_code/
+**/local_model_code/
+**/checkpoints/
+**/weights/
+**/results/
+**/cache*/
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.bin
+**/*.safetensors
+*.csv
+*.xlsx
+*.nii
+*.nii.gz

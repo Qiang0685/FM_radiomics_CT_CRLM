@@ -1,0 +1,8 @@
+# Versions recorded by the executed radiomics provenance (2026-11-02)
+pyradiomics==3.0.1
+SimpleITK==2.5.6
+nibabel==5.4.2
+pandas==3.0.6
+# NumPy was used but its exact version was not captured in the run provenance.
+numpy
+

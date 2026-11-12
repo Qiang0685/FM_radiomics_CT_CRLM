@@ -1,0 +1,16 @@
+# Core analysis and plotting
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.6
+threadpoolctl==3.5.0
+openpyxl==3.1.5
+
+# Imaging / radiomics extraction (only needed for the corresponding scripts)
+nibabel
+SimpleITK
+pyradiomics
+
+# FM extraction environments are model-specific; see FM_embedding_extraction/
+# and do not install this file as a substitute for their private checkpoints.
